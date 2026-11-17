@@ -1,0 +1,90 @@
+L9 GeM + DINOv3:   0%|          | 0/382 [00:00<?, ?it/s]L9 GeM + DINOv3:  10%|▉         | 38/382 [00:20<03:03,  1.88it/s]L9 GeM + DINOv3:  10%|▉         | 38/382 [00:40<03:03,  1.88it/s]L9 GeM + DINOv3:  20%|█▉        | 76/382 [00:40<02:42,  1.89it/s]L9 GeM + DINOv3:  20%|█▉        | 76/382 [01:00<02:42,  1.89it/s]L9 GeM + DINOv3:  30%|███       | 115/382 [01:00<02:20,  1.90it/s]L9 GeM + DINOv3:  30%|███       | 115/382 [01:20<02:20,  1.90it/s]L9 GeM + DINOv3:  40%|████      | 153/382 [01:20<02:00,  1.89it/s]L9 GeM + DINOv3:  40%|████      | 153/382 [01:40<02:00,  1.89it/s]L9 GeM + DINOv3:  50%|█████     | 191/382 [01:41<01:42,  1.87it/s]L9 GeM + DINOv3:  50%|█████     | 191/382 [02:00<01:42,  1.87it/s]L9 GeM + DINOv3:  59%|█████▉    | 226/382 [02:02<01:25,  1.81it/s]L9 GeM + DINOv3:  59%|█████▉    | 226/382 [02:20<01:25,  1.81it/s]L9 GeM + DINOv3:  69%|██████▉   | 264/382 [02:22<01:04,  1.83it/s]L9 GeM + DINOv3:  69%|██████▉   | 264/382 [02:40<01:04,  1.83it/s]L9 GeM + DINOv3:  79%|███████▉  | 301/382 [02:42<00:44,  1.83it/s]L9 GeM + DINOv3:  79%|███████▉  | 301/382 [03:00<00:44,  1.83it/s]L9 GeM + DINOv3:  89%|████████▉ | 340/382 [03:02<00:22,  1.86it/s]L9 GeM + DINOv3:  89%|████████▉ | 340/382 [03:20<00:22,  1.86it/s]L9 GeM + DINOv3: 100%|██████████| 382/382 [03:21<00:00,  1.89it/s]
+L9 GeM + ORB:   0%|          | 0/382 [00:00<?, ?it/s]L9 GeM + ORB:  11%|█         | 42/382 [00:20<02:46,  2.05it/s]L9 GeM + ORB:  11%|█         | 42/382 [00:38<02:46,  2.05it/s]L9 GeM + ORB:  24%|██▎       | 90/382 [00:40<02:10,  2.23it/s]L9 GeM + ORB:  24%|██▎       | 90/382 [00:58<02:10,  2.23it/s]L9 GeM + ORB:  36%|███▌      | 137/382 [01:00<01:47,  2.28it/s]L9 GeM + ORB:  36%|███▌      | 137/382 [01:18<01:47,  2.28it/s]L9 GeM + ORB:  48%|████▊     | 183/382 [01:21<01:27,  2.27it/s]L9 GeM + ORB:  48%|████▊     | 183/382 [01:38<01:27,  2.27it/s]L9 GeM + ORB:  60%|██████    | 230/382 [01:41<01:06,  2.29it/s]L9 GeM + ORB:  60%|██████    | 230/382 [01:58<01:06,  2.29it/s]L9 GeM + ORB:  73%|███████▎  | 279/382 [02:01<00:44,  2.33it/s]L9 GeM + ORB:  73%|███████▎  | 279/382 [02:18<00:44,  2.33it/s]L9 GeM + ORB:  92%|█████████▏| 350/382 [02:21<00:11,  2.72it/s]L9 GeM + ORB: 100%|██████████| 382/382 [02:29<00:00,  2.55it/s]
+L12 mean + DINOv3:   0%|          | 0/382 [00:00<?, ?it/s]L12 mean + DINOv3:  11%|█         | 42/382 [00:20<02:45,  2.05it/s]L12 mean + DINOv3:  11%|█         | 42/382 [00:38<02:45,  2.05it/s]L12 mean + DINOv3:  21%|██▏       | 82/382 [00:40<02:29,  2.00it/s]L12 mean + DINOv3:  21%|██▏       | 82/382 [00:58<02:29,  2.00it/s]L12 mean + DINOv3:  32%|███▏      | 121/382 [01:01<02:12,  1.97it/s]L12 mean + DINOv3:  32%|███▏      | 121/382 [01:18<02:12,  1.97it/s]L12 mean + DINOv3:  42%|████▏     | 160/382 [01:21<01:53,  1.95it/s]L12 mean + DINOv3:  42%|████▏     | 160/382 [01:38<01:53,  1.95it/s]L12 mean + DINOv3:  52%|█████▏    | 199/382 [01:41<01:34,  1.94it/s]L12 mean + DINOv3:  52%|█████▏    | 199/382 [01:58<01:34,  1.94it/s]L12 mean + DINOv3:  62%|██████▏   | 238/382 [02:01<01:14,  1.93it/s]L12 mean + DINOv3:  62%|██████▏   | 238/382 [02:18<01:14,  1.93it/s]L12 mean + DINOv3:  73%|███████▎  | 277/382 [02:22<00:54,  1.93it/s]L12 mean + DINOv3:  73%|███████▎  | 277/382 [02:38<00:54,  1.93it/s]L12 mean + DINOv3:  82%|████████▏ | 315/382 [02:42<00:35,  1.90it/s]L12 mean + DINOv3:  82%|████████▏ | 315/382 [02:58<00:35,  1.90it/s]L12 mean + DINOv3:  95%|█████████▍| 361/382 [03:03<00:10,  2.02it/s]L12 mean + DINOv3: 100%|██████████| 382/382 [03:14<00:00,  1.97it/s]
+ORB BoW + ORB:   0%|          | 0/382 [00:00<?, ?it/s]ORB BoW + ORB:  14%|█▎        | 52/382 [00:20<02:07,  2.59it/s]ORB BoW + ORB:  14%|█▎        | 52/382 [00:34<02:07,  2.59it/s]ORB BoW + ORB:  27%|██▋       | 103/382 [00:40<01:49,  2.55it/s]ORB BoW + ORB:  27%|██▋       | 103/382 [00:54<01:49,  2.55it/s]ORB BoW + ORB:  40%|███▉      | 152/382 [01:00<01:32,  2.48it/s]ORB BoW + ORB:  40%|███▉      | 152/382 [01:14<01:32,  2.48it/s]ORB BoW + ORB:  51%|█████     | 193/382 [01:20<01:22,  2.30it/s]ORB BoW + ORB:  51%|█████     | 193/382 [01:34<01:22,  2.30it/s]ORB BoW + ORB:  63%|██████▎   | 242/382 [01:41<00:59,  2.35it/s]ORB BoW + ORB:  63%|██████▎   | 242/382 [01:54<00:59,  2.35it/s]ORB BoW + ORB:  76%|███████▋  | 292/382 [02:01<00:37,  2.39it/s]ORB BoW + ORB:  76%|███████▋  | 292/382 [02:14<00:37,  2.39it/s]ORB BoW + ORB: 100%|██████████| 382/382 [02:18<00:00,  2.77it/s]
+                            R@1    R@5     AP  R@100P
+L9 GeM + DINOv3 verif.    0.964  1.000  0.957   0.764
+L9 GeM + ORB verif.       0.982  1.000  0.937   0.345
+L12 mean + DINOv3 verif.  0.945  1.000  0.934   0.673
+ORB BoW + ORB verif.      0.927  0.982  0.828   0.400
+                pipeline         criterion   tau  accepted  true_loops  valid_overlap  harmful  recall_true_loops  precision_label  precision_metric
+  L9 GeM + DINOv3 verif.           inliers  10.0       233          53             33      147              0.964            0.227             0.369
+  L9 GeM + DINOv3 verif.           inliers  15.0       155          53             33       69              0.964            0.342             0.555
+  L9 GeM + DINOv3 verif.           inliers  20.0       120          53             32       35              0.964            0.442             0.708
+  L9 GeM + DINOv3 verif.           inliers  30.0       103          53             32       18              0.964            0.515             0.825
+  L9 GeM + DINOv3 verif.           inliers  40.0        96          53             30       13              0.964            0.552             0.865
+  L9 GeM + DINOv3 verif.           inliers  50.0        91          53             29        9              0.964            0.582             0.901
+  L9 GeM + DINOv3 verif.           inliers  75.0        76          53             20        3              0.964            0.697             0.961
+  L9 GeM + DINOv3 verif.           inliers 100.0        66          53             12        1              0.964            0.803             0.985
+  L9 GeM + DINOv3 verif.           inliers 150.0        52          51              1        0              0.927            0.981             1.000
+  L9 GeM + DINOv3 verif. ratio (>=15 inl.)   0.1       136          53             32       51              0.964            0.390             0.625
+  L9 GeM + DINOv3 verif. ratio (>=15 inl.)   0.2        83          53             23        7              0.964            0.639             0.916
+  L9 GeM + DINOv3 verif. ratio (>=15 inl.)   0.3        59          53              6        0              0.964            0.898             1.000
+  L9 GeM + DINOv3 verif. ratio (>=15 inl.)   0.4        37          37              0        0              0.673            1.000             1.000
+  L9 GeM + DINOv3 verif. ratio (>=15 inl.)   0.5         2           2              0        0              0.036            1.000             1.000
+  L9 GeM + DINOv3 verif. ratio (>=15 inl.)   0.6         0           0              0        0              0.000              NaN               NaN
+     L9 GeM + ORB verif.           inliers  10.0       119          54             45       20              0.982            0.454             0.832
+     L9 GeM + ORB verif.           inliers  15.0       109          54             42       13              0.982            0.495             0.881
+     L9 GeM + ORB verif.           inliers  20.0       103          54             38       11              0.982            0.524             0.893
+     L9 GeM + ORB verif.           inliers  30.0        97          54             35        8              0.982            0.557             0.918
+     L9 GeM + ORB verif.           inliers  40.0        93          54             32        7              0.982            0.581             0.925
+     L9 GeM + ORB verif.           inliers  50.0        89          54             29        6              0.982            0.607             0.933
+     L9 GeM + ORB verif.           inliers  75.0        83          54             26        3              0.982            0.651             0.964
+     L9 GeM + ORB verif.           inliers 100.0        78          54             23        1              0.982            0.692             0.987
+     L9 GeM + ORB verif.           inliers 150.0        66          54             12        0              0.982            0.818             1.000
+     L9 GeM + ORB verif. ratio (>=15 inl.)   0.1       109          54             42       13              0.982            0.495             0.881
+     L9 GeM + ORB verif. ratio (>=15 inl.)   0.2       108          54             41       13              0.982            0.500             0.880
+     L9 GeM + ORB verif. ratio (>=15 inl.)   0.3        98          54             35        9              0.982            0.551             0.908
+     L9 GeM + ORB verif. ratio (>=15 inl.)   0.4        91          54             30        7              0.982            0.593             0.923
+     L9 GeM + ORB verif. ratio (>=15 inl.)   0.5        82          54             25        3              0.982            0.659             0.963
+     L9 GeM + ORB verif. ratio (>=15 inl.)   0.6        70          54             16        0              0.982            0.771             1.000
+L12 mean + DINOv3 verif.           inliers  10.0       223          52             35      136              0.945            0.233             0.390
+L12 mean + DINOv3 verif.           inliers  15.0       146          52             35       59              0.945            0.356             0.596
+L12 mean + DINOv3 verif.           inliers  20.0       111          52             35       24              0.945            0.468             0.784
+L12 mean + DINOv3 verif.           inliers  30.0       101          52             35       14              0.945            0.515             0.861
+L12 mean + DINOv3 verif.           inliers  40.0        98          52             34       12              0.945            0.531             0.878
+L12 mean + DINOv3 verif.           inliers  50.0        94          52             34        8              0.945            0.553             0.915
+L12 mean + DINOv3 verif.           inliers  75.0        74          52             17        5              0.945            0.703             0.932
+L12 mean + DINOv3 verif.           inliers 100.0        65          52             13        0              0.945            0.800             1.000
+L12 mean + DINOv3 verif.           inliers 150.0        52          50              2        0              0.909            0.962             1.000
+L12 mean + DINOv3 verif. ratio (>=15 inl.)   0.1       121          52             35       34              0.945            0.430             0.719
+L12 mean + DINOv3 verif. ratio (>=15 inl.)   0.2        85          52             26        7              0.945            0.612             0.918
+L12 mean + DINOv3 verif. ratio (>=15 inl.)   0.3        59          52              7        0              0.945            0.881             1.000
+L12 mean + DINOv3 verif. ratio (>=15 inl.)   0.4        33          33              0        0              0.600            1.000             1.000
+L12 mean + DINOv3 verif. ratio (>=15 inl.)   0.5         3           3              0        0              0.055            1.000             1.000
+L12 mean + DINOv3 verif. ratio (>=15 inl.)   0.6         0           0              0        0              0.000              NaN               NaN
+    ORB BoW + ORB verif.           inliers  10.0       120          51             55       14              0.927            0.425             0.883
+    ORB BoW + ORB verif.           inliers  15.0       116          51             55       10              0.927            0.440             0.914
+    ORB BoW + ORB verif.           inliers  20.0       114          51             55        8              0.927            0.447             0.930
+    ORB BoW + ORB verif.           inliers  30.0        98          51             43        4              0.927            0.520             0.959
+    ORB BoW + ORB verif.           inliers  40.0        91          51             37        3              0.927            0.560             0.967
+    ORB BoW + ORB verif.           inliers  50.0        88          51             36        1              0.927            0.580             0.989
+    ORB BoW + ORB verif.           inliers  75.0        85          51             33        1              0.927            0.600             0.988
+    ORB BoW + ORB verif.           inliers 100.0        81          51             30        0              0.927            0.630             1.000
+    ORB BoW + ORB verif.           inliers 150.0        80          51             29        0              0.927            0.638             1.000
+    ORB BoW + ORB verif. ratio (>=15 inl.)   0.1       116          51             55       10              0.927            0.440             0.914
+    ORB BoW + ORB verif. ratio (>=15 inl.)   0.2       115          51             55        9              0.927            0.443             0.922
+    ORB BoW + ORB verif. ratio (>=15 inl.)   0.3       107          51             48        8              0.927            0.477             0.925
+    ORB BoW + ORB verif. ratio (>=15 inl.)   0.4        92          51             39        2              0.927            0.554             0.978
+    ORB BoW + ORB verif. ratio (>=15 inl.)   0.5        84          51             33        0              0.927            0.607             1.000
+    ORB BoW + ORB verif. ratio (>=15 inl.)   0.6        79          51             28        0              0.927            0.646             1.000
+                pipeline  min_inliers_zero_harmful  true_loops_kept  recall_true_loops  valid_overlaps_kept
+  L9 GeM + DINOv3 verif.                       117               53           0.963636                   11
+     L9 GeM + ORB verif.                       101               54           0.981818                   23
+L12 mean + DINOv3 verif.                        93               52           0.945455                   13
+    ORB BoW + ORB verif.                        77               51           0.927273                   33
+L9 GeM + DINOv3 verif. top harmful: [{'q': 425, 'j': 13, 'inliers': 116, 'trans_err_cm': 14.5, 'rot_err_deg': 3.58, 'gt_dist_m': 0.58}, {'q': 423, 'j': 34, 'inliers': 81, 'trans_err_cm': 11.86, 'rot_err_deg': 3.21, 'gt_dist_m': 0.89}, {'q': 493, 'j': 35, 'inliers': 81, 'trans_err_cm': 10.98, 'rot_err_deg': 3.74, 'gt_dist_m': 0.96}]
+L9 GeM + ORB verif. top harmful: [{'q': 494, 'j': 29, 'inliers': 100, 'trans_err_cm': 10.29, 'rot_err_deg': 1.82, 'gt_dist_m': 0.92}, {'q': 493, 'j': 29, 'inliers': 96, 'trans_err_cm': 12.08, 'rot_err_deg': 2.16, 'gt_dist_m': 0.9}, {'q': 389, 'j': 28, 'inliers': 77, 'trans_err_cm': 16.42, 'rot_err_deg': 3.15, 'gt_dist_m': 1.41}]
+L12 mean + DINOv3 verif. top harmful: [{'q': 491, 'j': 32, 'inliers': 92, 'trans_err_cm': 10.07, 'rot_err_deg': 2.52, 'gt_dist_m': 0.85}, {'q': 421, 'j': 35, 'inliers': 88, 'trans_err_cm': 24.2, 'rot_err_deg': 6.77, 'gt_dist_m': 0.91}, {'q': 493, 'j': 35, 'inliers': 81, 'trans_err_cm': 10.98, 'rot_err_deg': 3.74, 'gt_dist_m': 0.96}]
+ORB BoW + ORB verif. top harmful: [{'q': 389, 'j': 7, 'inliers': 76, 'trans_err_cm': 13.17, 'rot_err_deg': 2.81, 'gt_dist_m': 1.42}, {'q': 390, 'j': 2, 'inliers': 49, 'trans_err_cm': 50.67, 'rot_err_deg': 10.4, 'gt_dist_m': 1.37}, {'q': 379, 'j': 12, 'inliers': 42, 'trans_err_cm': 10.27, 'rot_err_deg': 1.84, 'gt_dist_m': 1.65}]
+refine:   0%|          | 0/86 [00:00<?, ?it/s]refine:  84%|████████▎ | 72/86 [00:20<00:03,  3.57it/s]refine: 100%|██████████| 86/86 [00:24<00:00,  3.49it/s]
+                         pairs  solved  med_trans_cm  p90_trans_cm  med_rot_deg  p90_rot_deg
+class         method                                                                        
+true loop     DINOv3        53    1.00          4.40          6.08         1.18         2.12
+              DINOv3+LK     53    1.00          1.03          2.60         0.42         0.79
+              ORB           53    1.00          0.97          2.37         0.39         0.73
+valid overlap DINOv3        33    1.00          7.15          8.90         2.18         3.38
+              DINOv3+LK     33    0.70          3.54          6.02         1.07         1.96
+              ORB           33    0.73          2.62          4.09         0.71         1.39
+done
+EXIT 0

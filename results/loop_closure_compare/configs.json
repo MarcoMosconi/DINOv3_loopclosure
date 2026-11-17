@@ -1,0 +1,31 @@
+{
+ "DINOv3": {
+  "seq": "fr3_long_office_household",
+  "vocab_seq": "fr1_desk",
+  "model": "vits16",
+  "stride": 5,
+  "exclude_s": 20.0,
+  "d_thr": 0.5,
+  "ang_thr": 30.0,
+  "k_rr": 5,
+  "n_keyframes": 497,
+  "n_queries_with_loop": 55,
+  "n_queries_with_candidates": 382,
+  "backbone": "timm/vit_small_patch16_dinov3.lvd1689m"
+ },
+ "DINOv2": {
+  "backbone_key": "dinov2",
+  "seq": "fr3_long_office_household",
+  "vocab_seq": "fr1_desk",
+  "model": "timm:dinov2_vits14_reg",
+  "stride": 5,
+  "exclude_s": 20.0,
+  "d_thr": 0.5,
+  "ang_thr": 30.0,
+  "k_rr": 5,
+  "n_keyframes": 497,
+  "n_queries_with_loop": 55,
+  "n_queries_with_candidates": 382,
+  "backbone": "timm/vit_small_patch14_reg4_dinov2.lvd142m"
+ }
+}

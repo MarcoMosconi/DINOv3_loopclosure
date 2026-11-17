@@ -1,0 +1,64 @@
+final:   0%|          | 0/382 [00:00<?, ?it/s]final:  91%|█████████ | 348/382 [00:20<00:01, 17.22it/s]final: 100%|██████████| 382/382 [00:29<00:00, 12.84it/s]
+   criterion    tau  accepted  true loop  valid overlap  right place, bad pose  wrong place  recall_true_loops
+inlier_ratio   0.10        89         53             31                      5            0              0.964
+inlier_ratio   0.15        70         53             16                      1            0              0.964
+inlier_ratio   0.20        57         51              6                      0            0              0.927
+inlier_ratio   0.25        45         45              0                      0            0              0.818
+inlier_ratio   0.30        31         31              0                      0            0              0.564
+inlier_ratio   0.35        12         12              0                      0            0              0.218
+     inliers  15.00       106         53             38                     15            0              0.964
+     inliers  20.00        99         53             35                     11            0              0.964
+     inliers  30.00        91         53             32                      6            0              0.964
+     inliers  50.00        80         53             26                      1            0              0.964
+     inliers  75.00        67         53             14                      0            0              0.964
+     inliers 100.00        56         50              6                      0            0              0.909
+accepted at ratio>=0.3: pose error of the final constraint
+final_class           true loop
+final_trans_cm count      31.00
+               mean        1.01
+               std         0.50
+               min         0.14
+               25%         0.61
+               50%         0.92
+               75%         1.34
+               max         2.34
+final_rot_deg  count      31.00
+               mean        0.48
+               std         0.21
+               min         0.13
+               25%         0.33
+               50%         0.44
+               75%         0.65
+               max         0.91
+gt_dist_m      count      31.00
+               mean        0.27
+               std         0.09
+               min         0.11
+               25%         0.21
+               50%         0.29
+               75%         0.33
+               max         0.44
+gt_rot_deg     count      31.00
+               mean       11.27
+               std         2.84
+               min         6.08
+               25%         9.45
+               50%        11.56
+               75%        13.38
+               max        15.89
+gt_overlap     count      31.00
+               mean        0.94
+               std         0.05
+               min         0.83
+               25%         0.91
+               50%         0.96
+               75%         0.98
+               max         1.00
+all wrong-place top-1s (any score): 0
+       q   j  inliers  inlier_ratio  lk_solved  final_trans_cm  final_rot_deg  gt_dist_m  gt_rot_deg  gt_overlap
+103  494  32       60          0.15       True           44.88           9.22       0.95       19.89        0.56
+11   402  37       31          0.12      False           10.93           4.17       0.69       41.95        0.57
+24   415  35       43          0.10      False           19.92           6.64       0.94       35.04        0.70
+7    398  37       39          0.10      False           23.72           9.59       0.84       33.32        0.56
+9    400  28       32          0.10      False           19.80           5.26       0.97       20.61        0.51
+20   411  28       31          0.10      False           10.96           3.45       0.89       35.20        0.55

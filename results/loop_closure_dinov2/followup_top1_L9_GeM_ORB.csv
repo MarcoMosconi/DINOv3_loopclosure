@@ -1,0 +1,383 @@
+q,j,inliers,inlier_ratio,rot_err_deg,trans_err_cm,true_loop,query_has_loop,gt_dist_m,gt_rot_deg,class,true_loop_bad_pose
+115,0,0,0.0000,,,False,False,4.4286,141.9592,harmful,False
+116,0,0,0.0000,,,False,False,4.4136,143.4577,harmful,False
+117,3,0,0.0000,,,False,False,4.3834,145.7532,harmful,False
+118,4,0,0.0000,,,False,False,4.3529,149.0560,harmful,False
+119,4,0,0.0000,,,False,False,4.3147,153.4921,harmful,False
+120,6,0,0.0000,,,False,False,4.2759,155.7356,harmful,False
+121,6,0,0.0000,,,False,False,4.2420,158.4881,harmful,False
+122,8,0,0.0000,,,False,False,4.1967,160.8730,harmful,False
+123,8,0,0.0000,,,False,False,4.1652,163.3496,harmful,False
+124,8,0,0.0000,,,False,False,4.1352,165.0585,harmful,False
+125,10,0,0.0000,,,False,False,4.0853,163.5946,harmful,False
+126,12,0,0.0000,,,False,False,4.0312,160.3963,harmful,False
+127,10,0,0.0000,,,False,False,4.0472,161.6373,harmful,False
+128,10,0,0.0000,,,False,False,4.0219,161.0024,harmful,False
+129,12,0,0.0000,,,False,False,3.9722,155.3008,harmful,False
+130,12,0,0.0000,,,False,False,3.9521,152.2096,harmful,False
+131,10,0,0.0000,,,False,False,3.9546,151.5171,harmful,False
+132,12,0,0.0000,,,False,False,3.8873,146.9208,harmful,False
+133,18,0,0.0000,,,False,False,3.7925,141.5092,harmful,False
+134,18,0,0.0000,,,False,False,3.7611,138.1213,harmful,False
+135,20,0,0.0000,,,False,False,3.7121,133.6489,harmful,False
+136,16,0,0.0000,,,False,False,3.7244,133.8620,harmful,False
+137,23,0,0.0000,,,False,False,3.5294,128.4768,harmful,False
+138,24,0,0.0000,,,False,False,3.4621,125.9703,harmful,False
+139,25,0,0.0000,,,False,False,3.4020,122.1693,harmful,False
+140,25,0,0.0000,,,False,False,3.4064,120.0419,harmful,False
+141,27,0,0.0000,,,False,False,3.2951,115.4601,harmful,False
+142,28,0,0.0000,,,False,False,3.2385,111.6235,harmful,False
+143,28,0,0.0000,,,False,False,3.2492,109.5959,harmful,False
+144,28,0,0.0000,,,False,False,3.2629,107.1722,harmful,False
+145,28,0,0.0000,,,False,False,3.2739,105.1745,harmful,False
+146,28,0,0.0000,,,False,False,3.2857,102.8454,harmful,False
+147,29,0,0.0000,,,False,False,3.2436,100.0429,harmful,False
+148,34,0,0.0000,,,False,False,2.9528,90.1183,harmful,False
+149,34,0,0.0000,,,False,False,2.9806,90.4907,harmful,False
+150,34,0,0.0000,,,False,False,3.0116,92.3206,harmful,False
+151,36,0,0.0000,,,False,False,2.9156,91.4940,harmful,False
+152,36,0,0.0000,,,False,False,2.9608,92.9531,harmful,False
+153,36,0,0.0000,,,False,False,3.0016,93.8519,harmful,False
+154,36,0,0.0000,,,False,False,3.0352,96.7591,harmful,False
+155,37,0,0.0000,,,False,False,2.9930,97.1449,harmful,False
+156,36,0,0.0000,,,False,False,3.1020,102.7822,harmful,False
+157,36,0,0.0000,,,False,False,3.1355,105.5515,harmful,False
+158,36,0,0.0000,,,False,False,3.1769,108.7103,harmful,False
+159,36,0,0.0000,,,False,False,3.2095,111.2627,harmful,False
+160,36,0,0.0000,,,False,False,3.2376,113.3285,harmful,False
+161,36,0,0.0000,,,False,False,3.2624,115.4032,harmful,False
+162,37,0,0.0000,,,False,False,3.2213,115.0287,harmful,False
+163,29,0,0.0000,,,False,False,3.7448,135.4984,harmful,False
+164,28,0,0.0000,,,False,False,3.8228,140.4999,harmful,False
+165,28,0,0.0000,,,False,False,3.8376,140.8468,harmful,False
+166,28,0,0.0000,,,False,False,3.8444,140.7353,harmful,False
+167,28,0,0.0000,,,False,False,3.8395,140.4906,harmful,False
+168,36,0,0.0000,,,False,False,3.3427,126.4854,harmful,False
+169,28,0,0.0000,,,False,False,3.7775,142.9138,harmful,False
+170,36,0,0.0000,,,False,False,3.2718,129.6412,harmful,False
+171,28,0,0.0000,,,False,False,3.7095,146.3292,harmful,False
+172,28,0,0.0000,,,False,False,3.6836,148.4268,harmful,False
+173,38,0,0.0000,,,False,False,3.0824,129.1032,harmful,False
+174,28,0,0.0000,,,False,False,3.6535,151.3153,harmful,False
+175,38,0,0.0000,,,False,False,3.0632,132.6703,harmful,False
+176,28,0,0.0000,,,False,False,3.6294,156.1194,harmful,False
+177,28,0,0.0000,,,False,False,3.6156,157.9577,harmful,False
+178,28,0,0.0000,,,False,False,3.5915,160.4491,harmful,False
+179,27,0,0.0000,,,False,False,3.6233,163.2054,harmful,False
+180,28,0,0.0000,,,False,False,3.5181,161.4387,harmful,False
+181,38,0,0.0000,,,False,False,2.9049,139.1671,harmful,False
+182,38,0,0.0000,,,False,False,2.8636,137.8692,harmful,False
+183,28,0,0.0000,,,False,False,3.4035,156.1747,harmful,False
+184,28,0,0.0000,,,False,False,3.3836,152.1226,harmful,False
+185,46,0,0.0000,,,False,False,2.6118,119.9270,harmful,False
+186,28,0,0.0000,,,False,False,3.3670,144.5684,harmful,False
+187,37,0,0.0000,,,False,False,2.8593,122.6322,harmful,False
+188,37,0,0.0000,,,False,False,2.8751,117.9473,harmful,False
+189,37,0,0.0000,,,False,False,2.8912,113.5962,harmful,False
+190,40,0,0.0000,,,False,False,2.7879,103.1637,harmful,False
+191,37,0,0.0000,,,False,False,2.9203,105.0102,harmful,False
+192,37,0,0.0000,,,False,False,2.9408,100.2980,harmful,False
+193,23,0,0.0000,,,False,False,3.7403,117.9698,harmful,False
+194,24,0,0.0000,,,False,False,3.7154,111.9074,harmful,False
+195,37,0,0.0000,,,False,False,3.0440,84.3821,harmful,False
+196,37,0,0.0000,,,False,False,3.0715,80.6896,harmful,False
+197,37,0,0.0000,,,False,False,3.0868,77.6984,harmful,False
+198,37,0,0.0000,,,False,False,3.0946,73.3324,harmful,False
+199,37,0,0.0000,,,False,False,3.1008,68.0036,harmful,False
+200,24,0,0.0000,,,False,False,3.7892,84.5151,harmful,False
+201,24,0,0.0000,,,False,False,3.7943,78.7984,harmful,False
+202,24,0,0.0000,,,False,False,3.7962,73.9619,harmful,False
+203,24,0,0.0000,,,False,False,3.7978,70.8360,harmful,False
+204,24,0,0.0000,,,False,False,3.7993,71.1512,harmful,False
+205,24,0,0.0000,,,False,False,3.8075,73.0981,harmful,False
+206,24,0,0.0000,,,False,False,3.8218,74.1807,harmful,False
+207,24,0,0.0000,,,False,False,3.8519,74.3687,harmful,False
+208,24,0,0.0000,,,False,False,3.8743,75.2413,harmful,False
+209,24,0,0.0000,,,False,False,3.8896,78.0979,harmful,False
+210,24,0,0.0000,,,False,False,3.9009,81.1841,harmful,False
+211,24,0,0.0000,,,False,False,3.9086,83.7711,harmful,False
+212,24,0,0.0000,,,False,False,3.9140,85.9503,harmful,False
+213,24,0,0.0000,,,False,False,3.9239,87.3566,harmful,False
+214,24,0,0.0000,,,False,False,3.9353,88.8551,harmful,False
+215,24,0,0.0000,,,False,False,3.9526,91.3926,harmful,False
+216,24,0,0.0000,,,False,False,3.9834,93.9822,harmful,False
+217,24,0,0.0000,,,False,False,4.0252,97.0276,harmful,False
+218,24,0,0.0000,,,False,False,4.0727,99.5838,harmful,False
+219,24,0,0.0000,,,False,False,4.1214,101.1058,harmful,False
+220,24,0,0.0000,,,False,False,4.1755,103.0286,harmful,False
+221,25,0,0.0000,,,False,False,4.1617,104.3304,harmful,False
+222,25,0,0.0000,,,False,False,4.2180,107.2979,harmful,False
+223,24,0,0.0000,,,False,False,4.3360,111.4153,harmful,False
+224,24,0,0.0000,,,False,False,4.3939,113.3482,harmful,False
+225,25,0,0.0000,,,False,False,4.3852,115.5833,harmful,False
+226,24,0,0.0000,,,False,False,4.4798,120.4709,harmful,False
+227,24,0,0.0000,,,False,False,4.5170,123.6654,harmful,False
+228,24,0,0.0000,,,False,False,4.5652,128.4642,harmful,False
+229,24,0,0.0000,,,False,False,4.6062,131.6023,harmful,False
+230,24,0,0.0000,,,False,False,4.6433,133.4485,harmful,False
+231,24,0,0.0000,,,False,False,4.6778,135.4530,harmful,False
+232,24,0,0.0000,,,False,False,4.7128,137.8338,harmful,False
+233,24,0,0.0000,,,False,False,4.7552,141.8511,harmful,False
+234,24,0,0.0000,,,False,False,4.7980,145.5957,harmful,False
+235,24,0,0.0000,,,False,False,4.8495,148.6201,harmful,False
+236,18,0,0.0000,,,False,False,5.0298,153.4971,harmful,False
+237,92,0,0.0000,,,False,False,3.5622,57.4931,harmful,False
+238,92,0,0.0000,,,False,False,3.6045,60.6720,harmful,False
+239,114,0,0.0000,,,False,False,2.7549,32.8564,harmful,False
+240,110,0,0.0000,,,False,False,2.9661,44.2753,harmful,False
+241,110,0,0.0000,,,False,False,3.0078,48.4510,harmful,False
+242,100,0,0.0000,,,False,False,3.4417,70.2159,harmful,False
+243,105,0,0.0000,,,False,False,3.3076,74.7627,harmful,False
+244,18,0,0.0000,,,False,False,5.0027,175.0740,harmful,False
+245,105,0,0.0000,,,False,False,3.3912,82.5951,harmful,False
+246,105,0,0.0000,,,False,False,3.4183,86.0792,harmful,False
+247,97,0,0.0000,,,False,False,3.7440,91.2591,harmful,False
+248,97,0,0.0000,,,False,False,3.7443,94.2402,harmful,False
+249,97,0,0.0000,,,False,False,3.7422,97.5561,harmful,False
+250,105,0,0.0000,,,False,False,3.4466,97.6086,harmful,False
+251,105,0,0.0000,,,False,False,3.4582,99.9283,harmful,False
+252,113,0,0.0000,,,False,False,3.1437,79.5831,harmful,False
+253,97,0,0.0000,,,False,False,3.7902,107.2196,harmful,False
+254,97,0,0.0000,,,False,False,3.8338,109.6040,harmful,False
+255,97,0,0.0000,,,False,False,3.8662,111.7735,harmful,False
+256,97,0,0.0000,,,False,False,3.8903,113.1515,harmful,False
+257,97,0,0.0000,,,False,False,3.9085,114.6901,harmful,False
+258,97,0,0.0000,,,False,False,3.9229,116.2994,harmful,False
+259,97,0,0.0000,,,False,False,3.9365,117.9903,harmful,False
+260,113,0,0.0000,,,False,False,3.3774,94.8580,harmful,False
+261,113,0,0.0000,,,False,False,3.4006,97.1977,harmful,False
+262,113,0,0.0000,,,False,False,3.4218,99.0235,harmful,False
+263,113,0,0.0000,,,False,False,3.4447,100.5117,harmful,False
+264,113,0,0.0000,,,False,False,3.4810,100.8461,harmful,False
+265,113,0,0.0000,,,False,False,3.5368,100.9455,harmful,False
+266,113,0,0.0000,,,False,False,3.5907,102.2434,harmful,False
+267,113,0,0.0000,,,False,False,3.6453,102.9040,harmful,False
+268,113,0,0.0000,,,False,False,3.6970,101.9458,harmful,False
+269,107,0,0.0000,,,False,False,4.0058,117.4409,harmful,False
+270,110,0,0.0000,,,False,False,3.8959,106.3940,harmful,False
+271,109,0,0.0000,,,False,False,3.9748,109.1434,harmful,False
+272,111,0,0.0000,,,False,False,3.9003,102.6468,harmful,False
+273,111,0,0.0000,,,False,False,3.9238,103.8661,harmful,False
+274,111,0,0.0000,,,False,False,3.9519,104.0320,harmful,False
+275,111,0,0.0000,,,False,False,3.9861,103.9783,harmful,False
+276,112,0,0.0000,,,False,False,3.9686,102.2087,harmful,False
+277,112,0,0.0000,,,False,False,3.9917,102.6365,harmful,False
+278,112,0,0.0000,,,False,False,4.0211,103.8665,harmful,False
+279,112,0,0.0000,,,False,False,4.0604,105.4872,harmful,False
+280,111,0,0.0000,,,False,False,4.1495,109.6975,harmful,False
+281,111,0,0.0000,,,False,False,4.1922,111.6334,harmful,False
+282,85,0,0.0000,,,False,False,4.6237,150.3633,harmful,False
+283,85,0,0.0000,,,False,False,4.6456,152.4177,harmful,False
+284,85,0,0.0000,,,False,False,4.6623,154.4139,harmful,False
+285,85,0,0.0000,,,False,False,4.6782,156.7931,harmful,False
+286,85,0,0.0000,,,False,False,4.6923,159.0036,harmful,False
+287,85,0,0.0000,,,False,False,4.7113,161.7160,harmful,False
+288,85,0,0.0000,,,False,False,4.7305,163.4261,harmful,False
+289,85,0,0.0000,,,False,False,4.7471,163.9549,harmful,False
+290,85,0,0.0000,,,False,False,4.7626,164.9783,harmful,False
+291,85,0,0.0000,,,False,False,4.7826,166.9334,harmful,False
+292,85,0,0.0000,,,False,False,4.8060,169.0652,harmful,False
+293,85,0,0.0000,,,False,False,4.8325,171.5250,harmful,False
+294,85,0,0.0000,,,False,False,4.8620,172.7218,harmful,False
+295,85,0,0.0000,,,False,False,4.8889,173.5439,harmful,False
+296,85,0,0.0000,,,False,False,4.9138,174.6330,harmful,False
+297,85,0,0.0000,,,False,False,4.9360,175.0679,harmful,False
+298,85,0,0.0000,,,False,False,4.9541,175.0616,harmful,False
+299,86,0,0.0000,,,False,False,4.9551,174.5816,harmful,False
+300,85,0,0.0000,,,False,False,4.9639,177.2499,harmful,False
+301,85,0,0.0000,,,False,False,4.9671,179.0565,harmful,False
+302,85,0,0.0000,,,False,False,4.9702,179.9338,harmful,False
+303,85,0,0.0000,,,False,False,4.9727,178.7306,harmful,False
+304,85,0,0.0000,,,False,False,4.9776,177.7759,harmful,False
+305,85,0,0.0000,,,False,False,4.9880,175.0425,harmful,False
+306,85,0,0.0000,,,False,False,5.0025,171.5659,harmful,False
+307,89,0,0.0000,,,False,False,5.0275,174.9555,harmful,False
+308,92,0,0.0000,,,False,False,5.0812,178.9706,harmful,False
+309,92,0,0.0000,,,False,False,5.1165,178.6397,harmful,False
+310,92,0,0.0000,,,False,False,5.1368,178.1305,harmful,False
+311,20,0,0.0000,,,False,False,4.1327,80.2176,harmful,False
+312,20,0,0.0000,,,False,False,4.1023,79.3101,harmful,False
+313,92,0,0.0000,,,False,False,5.1553,174.7265,harmful,False
+314,20,0,0.0000,,,False,False,4.0350,75.8702,harmful,False
+315,20,0,0.0000,,,False,False,4.0072,74.3217,harmful,False
+316,20,0,0.0000,,,False,False,3.9790,73.7217,harmful,False
+317,20,0,0.0000,,,False,False,3.9502,72.7779,harmful,False
+318,20,0,0.0000,,,False,False,3.9085,71.2990,harmful,False
+319,20,0,0.0000,,,False,False,3.8749,69.9389,harmful,False
+320,92,0,0.0000,,,False,False,5.1396,164.5563,harmful,False
+321,20,0,0.0000,,,False,False,3.7963,66.4003,harmful,False
+322,92,0,0.0000,,,False,False,5.1535,162.5546,harmful,False
+323,92,0,0.0000,,,False,False,5.1543,163.2344,harmful,False
+324,92,0,0.0000,,,False,False,5.1468,163.2656,harmful,False
+325,18,0,0.0000,,,False,False,3.5214,64.7044,harmful,False
+326,18,0,0.0000,,,False,False,3.4565,61.8159,harmful,False
+327,18,0,0.0000,,,False,False,3.4135,59.7603,harmful,False
+328,15,0,0.0000,,,False,False,3.1761,55.9598,harmful,False
+329,18,0,0.0000,,,False,False,3.3294,57.2304,harmful,False
+330,18,0,0.0000,,,False,False,3.2818,56.5684,harmful,False
+331,18,0,0.0000,,,False,False,3.2421,56.0238,harmful,False
+332,18,0,0.0000,,,False,False,3.2099,54.1869,harmful,False
+333,18,0,0.0000,,,False,False,3.1805,52.6222,harmful,False
+334,18,0,0.0000,,,False,False,3.1561,51.7715,harmful,False
+335,18,0,0.0000,,,False,False,3.1292,50.6652,harmful,False
+336,18,0,0.0000,,,False,False,3.0946,49.8920,harmful,False
+337,18,0,0.0000,,,False,False,3.0558,48.8204,harmful,False
+338,18,0,0.0000,,,False,False,3.0026,47.2593,harmful,False
+339,20,0,0.0000,,,False,False,3.0718,46.5769,harmful,False
+340,20,0,0.0000,,,False,False,3.0294,44.6878,harmful,False
+341,18,0,0.0000,,,False,False,2.8653,42.0864,harmful,False
+342,15,0,0.0000,,,False,False,2.6243,36.9643,harmful,False
+343,18,0,0.0000,,,False,False,2.7896,35.6141,harmful,False
+344,20,0,0.0000,,,False,False,2.8700,33.9027,harmful,False
+345,20,0,0.0000,,,False,False,2.8238,31.3746,harmful,False
+346,20,0,0.0000,,,False,False,2.7882,29.0311,harmful,False
+347,22,0,0.0000,,,False,False,2.8130,26.8598,harmful,False
+348,125,0,0.0000,,,False,False,4.3210,179.4495,harmful,False
+349,125,0,0.0000,,,False,False,4.2686,177.3033,harmful,False
+350,125,0,0.0000,,,False,False,4.2241,175.5071,harmful,False
+351,125,0,0.0000,,,False,False,4.1822,173.4823,harmful,False
+352,234,0,0.0000,,,False,False,4.0315,160.8509,harmful,False
+353,234,0,0.0000,,,False,False,4.0204,157.5859,harmful,False
+354,232,0,0.0000,,,False,False,3.9755,146.1423,harmful,False
+355,232,0,0.0000,,,False,False,3.9652,143.5914,harmful,False
+356,232,0,0.0000,,,False,False,3.9470,141.7318,harmful,False
+357,232,0,0.0000,,,False,False,3.9214,140.2443,harmful,False
+358,232,0,0.0000,,,False,False,3.8862,138.5696,harmful,False
+359,232,0,0.0000,,,False,False,3.8437,137.5221,harmful,False
+360,232,0,0.0000,,,False,False,3.7991,136.3979,harmful,False
+361,232,0,0.0000,,,False,False,3.7616,135.7671,harmful,False
+362,232,0,0.0000,,,False,False,3.7290,134.9399,harmful,False
+363,232,0,0.0000,,,False,False,3.6983,133.1435,harmful,False
+364,232,0,0.0000,,,False,False,3.6677,129.8818,harmful,False
+365,232,0,0.0000,,,False,False,3.6270,125.9672,harmful,False
+366,232,0,0.0000,,,False,False,3.5950,124.4880,harmful,False
+367,232,0,0.0000,,,False,False,3.5619,123.6141,harmful,False
+368,232,0,0.0000,,,False,False,3.5224,122.9138,harmful,False
+369,232,0,0.0000,,,False,False,3.4671,123.3113,harmful,False
+370,232,0,0.0000,,,False,False,3.3995,124.6940,harmful,False
+371,232,0,0.0000,,,False,False,3.3525,126.5289,harmful,False
+372,20,10,0.1639,14.5601,79.3114,False,False,2.1550,19.1935,harmful,False
+373,20,15,0.3000,9.2754,50.8296,False,False,2.1474,17.1351,harmful,False
+374,15,20,0.2410,5.4798,29.2917,False,False,1.9145,16.8681,harmful,False
+375,18,21,0.3443,8.3430,44.4484,False,False,2.0341,15.7508,harmful,False
+376,15,32,0.3810,7.9433,41.5083,False,False,1.8488,14.4415,harmful,False
+377,15,44,0.4231,1.2484,4.5749,False,False,1.8102,14.4099,valid overlap,False
+378,15,46,0.4423,3.4905,18.7094,False,False,1.7562,13.9624,harmful,False
+379,12,42,0.4078,1.8401,10.2718,False,False,1.6535,14.9868,harmful,False
+380,37,0,0.0000,,,False,False,1.6256,26.9836,harmful,False
+381,30,13,0.2653,18.6724,91.3261,False,False,1.6735,17.4044,harmful,False
+382,32,15,0.2500,6.2108,31.5679,False,False,1.6052,20.4027,harmful,False
+383,29,16,0.2667,17.5907,88.1884,False,False,1.6037,15.4831,harmful,False
+384,36,11,0.1803,4.4820,23.9519,False,False,1.4527,23.1685,harmful,False
+385,36,12,0.2034,27.5483,127.0832,False,False,1.4111,21.8249,harmful,False
+386,28,40,0.4938,0.4773,4.2270,False,False,1.5047,10.5329,valid overlap,False
+387,28,53,0.4077,4.9072,25.4390,False,False,1.4741,10.1766,harmful,False
+388,28,60,0.4580,3.5101,18.5156,False,False,1.4425,9.5175,harmful,False
+389,18,82,0.5000,1.0754,6.4592,False,False,1.5620,7.6614,valid overlap,False
+390,28,72,0.4865,2.8725,15.9227,False,False,1.3687,9.4511,harmful,False
+391,28,79,0.5130,1.4326,8.3484,False,False,1.3263,9.3152,valid overlap,False
+392,23,96,0.5963,0.3713,3.8009,False,False,1.4387,8.1730,valid overlap,False
+393,28,73,0.4506,0.3194,1.8158,False,False,1.2256,9.7924,valid overlap,False
+394,28,65,0.4577,1.6265,5.7179,False,False,1.1636,10.4668,valid overlap,False
+395,36,28,0.3333,1.2942,4.5889,False,False,0.9649,24.1988,valid overlap,False
+396,36,38,0.4086,0.3495,1.7163,False,False,0.9238,25.7315,valid overlap,False
+397,36,21,0.2658,1.9198,5.0362,False,False,0.8849,27.9168,valid overlap,False
+398,36,29,0.3258,2.5210,6.2369,False,False,0.8472,30.1954,valid overlap,False
+399,36,41,0.3628,2.2111,6.7552,False,False,0.8074,32.5128,valid overlap,False
+400,35,29,0.3718,1.9205,5.0739,False,False,0.7834,33.5236,valid overlap,False
+401,35,31,0.3039,1.2506,3.0982,False,False,0.7483,35.4171,valid overlap,False
+402,37,18,0.2143,8.0596,18.1476,False,False,0.6914,41.9488,harmful,False
+403,37,21,0.2958,1.5213,4.2383,False,False,0.6766,44.4094,valid overlap,False
+404,24,13,0.1781,7.2238,27.0561,False,False,1.0706,25.5606,harmful,False
+405,24,0,0.0000,,,False,False,1.0545,29.3371,harmful,False
+406,24,11,0.2037,1.4017,7.0882,False,False,1.0454,31.1321,valid overlap,False
+407,24,10,0.1923,1.3592,5.4786,False,False,1.0390,31.3652,valid overlap,False
+408,28,16,0.2540,3.0748,9.9752,False,False,0.8754,36.5878,valid overlap,False
+409,35,11,0.1528,2.2879,8.2440,False,False,0.7573,49.9715,valid overlap,False
+410,35,17,0.1954,3.4331,9.2718,False,False,0.7907,49.7257,valid overlap,False
+411,31,21,0.2917,1.9561,5.6300,False,False,0.8621,40.5217,valid overlap,False
+412,29,34,0.3036,0.9760,4.2130,False,False,0.8983,33.8892,valid overlap,False
+413,29,29,0.2788,0.9469,3.9800,False,False,0.9162,31.1644,valid overlap,False
+414,29,39,0.3545,2.4728,10.2159,False,False,0.9286,27.9542,harmful,False
+415,29,34,0.2742,0.4984,3.4499,False,False,0.9399,23.4601,valid overlap,False
+416,10,161,0.5403,0.5324,2.8102,False,False,0.9513,7.6057,valid overlap,False
+417,33,51,0.3400,7.9036,38.3227,False,False,0.9452,20.6996,harmful,False
+418,32,79,0.4702,0.7793,2.8720,False,False,0.9208,16.8905,valid overlap,False
+419,30,111,0.5236,0.5398,2.6118,False,False,0.8813,12.0533,valid overlap,False
+420,32,94,0.5027,0.6164,2.0454,False,False,0.8735,15.0158,valid overlap,False
+421,32,79,0.4566,0.8461,2.1336,False,False,0.8664,13.7253,valid overlap,False
+422,32,94,0.4974,0.3532,3.1927,False,False,0.8653,12.0187,valid overlap,False
+423,30,100,0.5181,0.3277,3.5573,False,False,0.8272,7.0039,valid overlap,False
+424,18,494,0.7496,0.6484,4.2966,False,False,0.7344,10.3617,valid overlap,False
+425,17,536,0.7263,0.2667,1.3320,False,False,0.6347,11.6028,valid overlap,False
+426,17,580,0.7827,0.3847,2.3046,False,False,0.5751,12.7824,valid overlap,False
+427,16,434,0.7138,0.6796,3.0328,True,True,0.4941,15.6208,true loop,False
+428,18,593,0.8090,0.1876,1.4158,False,True,0.5236,16.1484,valid overlap,False
+429,17,607,0.8361,0.3464,1.7346,True,True,0.4731,17.8830,true loop,False
+430,17,489,0.7570,0.4681,2.2517,True,True,0.4641,18.3127,true loop,False
+431,12,217,0.6200,1.2773,5.7944,False,True,0.5703,20.8852,valid overlap,False
+432,31,210,0.6562,0.4373,1.5735,True,True,0.4957,7.9568,true loop,False
+433,29,343,0.7440,0.7538,3.6862,True,True,0.3466,8.9463,true loop,False
+434,30,402,0.7296,0.4618,0.8843,True,True,0.3356,8.0350,true loop,False
+435,28,709,0.8563,0.2271,0.8861,True,True,0.2068,10.0823,true loop,False
+436,28,760,0.8137,0.4725,2.0556,True,True,0.1615,9.4747,true loop,False
+437,28,870,0.8717,0.2957,0.4251,True,True,0.1222,9.6711,true loop,False
+438,28,686,0.8285,0.5262,0.8137,True,True,0.1064,11.5650,true loop,False
+439,28,723,0.8566,0.4188,0.5343,True,True,0.1289,14.0884,true loop,False
+440,28,595,0.8611,0.1137,0.5817,True,True,0.1767,15.8942,true loop,False
+441,29,416,0.7820,0.2359,0.9982,True,True,0.2029,14.0457,true loop,False
+442,29,297,0.6859,0.4741,2.1822,True,True,0.2605,12.1776,true loop,False
+443,29,395,0.8028,0.3264,1.9383,True,True,0.3125,11.9038,true loop,False
+444,30,399,0.7748,0.2145,0.9575,True,True,0.3306,12.6567,true loop,False
+445,30,255,0.7391,0.3359,1.8433,True,True,0.3664,12.9591,true loop,False
+446,31,377,0.7904,0.1956,0.5741,True,True,0.3723,13.6143,true loop,False
+447,34,418,0.8228,0.3146,0.8608,True,True,0.4009,10.6275,true loop,False
+448,32,345,0.7968,0.1837,1.1435,True,True,0.3789,14.0259,true loop,False
+449,34,403,0.8258,0.3028,0.8091,True,True,0.4051,12.3701,true loop,False
+450,34,440,0.8271,0.5122,1.1452,True,True,0.4115,13.3298,true loop,False
+451,34,398,0.7913,0.1430,1.3075,True,True,0.4201,13.3844,true loop,False
+452,34,374,0.8166,0.7101,1.7624,True,True,0.4306,13.3246,true loop,False
+453,34,382,0.8233,0.7407,1.1978,True,True,0.4385,13.1599,true loop,False
+454,35,413,0.7958,0.9586,0.8120,True,True,0.4701,11.6861,true loop,False
+455,34,364,0.7913,0.5860,0.7532,True,True,0.4367,12.2570,true loop,False
+456,34,410,0.7977,0.4696,1.5896,True,True,0.4305,12.3258,true loop,False
+457,34,404,0.8382,0.3584,1.2436,True,True,0.4220,11.9480,true loop,False
+458,34,465,0.8611,0.2458,1.1932,True,True,0.3961,11.7412,true loop,False
+459,34,507,0.8339,0.5080,1.1478,True,True,0.3555,13.0098,true loop,False
+460,34,564,0.8393,0.6509,0.7877,True,True,0.3330,14.1950,true loop,False
+461,34,557,0.8530,0.5447,1.3437,True,True,0.3195,14.3719,true loop,False
+462,33,590,0.8441,0.3432,0.6384,True,True,0.2702,15.5220,true loop,False
+463,34,613,0.8432,0.3995,0.7521,True,True,0.3008,14.0997,true loop,False
+464,33,624,0.8764,0.3503,0.6987,True,True,0.2463,14.0340,true loop,False
+465,34,572,0.8278,0.2766,0.5634,True,True,0.2695,11.4699,true loop,False
+466,33,633,0.8671,0.3183,0.6695,True,True,0.2197,11.5652,true loop,False
+467,34,572,0.8375,0.3530,0.7029,True,True,0.2525,10.7608,true loop,False
+468,34,664,0.8680,0.4025,0.3358,True,True,0.2468,10.9244,true loop,False
+469,33,671,0.8451,0.5594,1.2046,True,True,0.1903,10.6661,true loop,False
+470,32,713,0.8398,0.2507,0.9693,True,True,0.1385,10.2050,true loop,False
+471,32,785,0.8423,0.4021,0.5007,True,True,0.1314,9.3107,true loop,False
+472,30,897,0.8743,0.2463,0.6746,True,True,0.0986,10.0034,true loop,False
+473,31,833,0.8372,0.4149,1.1828,True,True,0.1102,8.8259,true loop,False
+474,31,824,0.8306,0.4594,1.2698,True,True,0.1322,7.8260,true loop,False
+475,31,785,0.8607,0.4689,1.6550,True,True,0.1588,7.4621,true loop,False
+476,32,694,0.8136,0.6332,0.4881,True,True,0.2090,6.0771,true loop,False
+477,32,592,0.7779,0.5154,0.6861,True,True,0.2612,6.7116,true loop,False
+478,32,501,0.8160,0.3054,0.3074,True,True,0.3252,6.1968,true loop,False
+479,32,416,0.7647,0.3960,0.2232,True,True,0.3801,6.6367,true loop,False
+480,32,366,0.7262,0.4238,0.6881,True,True,0.4342,6.8109,true loop,False
+481,32,319,0.7250,0.3211,0.7989,True,True,0.4735,7.8928,true loop,False
+482,33,169,0.5652,0.4855,2.0555,False,False,0.5254,9.7831,valid overlap,False
+483,30,318,0.7130,0.3504,1.3842,False,False,0.5411,8.4039,valid overlap,False
+484,30,258,0.6973,0.0567,2.2614,False,False,0.5816,8.6216,valid overlap,False
+485,30,214,0.6585,0.3528,1.0261,False,False,0.6218,8.9096,valid overlap,False
+486,33,102,0.5484,0.9759,3.2929,False,False,0.6838,13.4822,valid overlap,False
+487,30,181,0.6263,0.3496,1.4970,False,False,0.6683,10.3951,valid overlap,False
+488,30,183,0.6246,0.1270,1.5886,False,False,0.6970,11.7376,valid overlap,False
+489,32,113,0.5539,0.4294,1.8631,False,False,0.7573,15.7888,valid overlap,False
+490,30,120,0.4979,0.1766,2.6818,False,False,0.7838,14.1431,valid overlap,False
+491,30,102,0.5126,0.4678,2.9678,False,False,0.8299,15.6084,valid overlap,False
+492,30,107,0.5515,0.7881,2.9659,False,False,0.8774,16.5978,valid overlap,False
+493,33,67,0.4379,1.2604,8.3198,False,False,0.9320,22.5417,valid overlap,False
+494,30,75,0.4237,1.2044,4.9315,False,False,0.9336,16.6382,valid overlap,False
+495,30,81,0.4765,2.4175,13.8520,False,False,0.9515,15.5115,harmful,False
+496,30,70,0.4217,3.8531,21.1171,False,False,0.9650,15.2058,harmful,False
