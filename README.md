@@ -46,4 +46,4 @@ export HF_HUB_DISABLE_IMPLICIT_TOKEN=1   # the HF DINOv3 weights are gated; with
 .venv/bin/python loop_closure.py
 ```
 
-The TUM sequences are downloaded into `data/` on first use: `fr3_long_office_household` is about 1.6 GB, and `fr1_desk` (0.4 GB) is used to train the ORB vocabulary. Features are cached in `results/cache/`. The first run takes about 15 minutes on CPU; later runs take about 4 minutes.
+The TUM sequences are downloaded into `data/` (not on git  due to size) on first use: `fr3_long_office_household` is about 1.6 GB, and `fr1_desk` (0.4 GB) is used to train the ORB vocabulary. Features are cached in `results/cache/`. The first run takes about 15 minutes on CPU; later runs take about 4 minutes.
