@@ -1,0 +1,5 @@
+,AP,R@100P,R@1,R@5
+ORB bag of words,0.7312,0.3455,0.8364,0.9818
+"DINOv3 block 12 (final), GeM",0.7333,0.2545,0.8545,1.0000
+"DINOv3 block 9, GeM (steps 1-2)",0.8937,0.5273,0.9455,1.0000
+DINOv3 + verification (steps 1-3),0.9565,0.7636,0.9636,1.0000

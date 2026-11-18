@@ -17,3 +17,6 @@ __pycache__/
 \data
 02_tracking.ipynb
 03_robustness.ipynb
+
+# Material not used in the slides (kept locally, not versioned)
+archive/

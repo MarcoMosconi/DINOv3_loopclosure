@@ -1,8 +1,0 @@
-pipeline,model,min_inliers_zero_harmful,true_loops_kept,valid_overlaps_kept
-L12 mean + patch verif.,DINOv2,78,48,14
-L12 mean + patch verif.,DINOv3,93,52,13
-L9 GeM + ORB verif.,DINOv2,82,53,23
-L9 GeM + ORB verif.,DINOv3,101,54,23
-L9 GeM + patch verif.,DINOv2,78,53,12
-L9 GeM + patch verif.,DINOv3,117,53,11
-ORB BoW + ORB verif.,ORB,77,51,33

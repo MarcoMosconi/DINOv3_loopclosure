@@ -1,6 +1,0 @@
-input,model,ms/frame (CPU)
-scale 0.5,DINOv3,188
-scale 1.0,DINOv2,1104
-scale 0.5,DINOv2,212
-"scale 1.0, all 12 blocks",DINOv3,960
-"scale 1.0, all 12 blocks",DINOv2,1183

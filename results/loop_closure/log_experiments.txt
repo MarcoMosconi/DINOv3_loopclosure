@@ -1,99 +1,0 @@
-[    0.3s] TUMSequence(fr3_long_office_household: 2485 frames, 87.0s, path length 22.14 m) | 497 keyframes | 55 queries with a true loop
-DINOv3 vocab_s0.5:   0%|          | 0/15 [00:00<?, ?it/s][DinoV3] could not load facebook/dinov3-vits16-pretrain-lvd1689m (OSError); using the timm copy of the same weights
-[   14.0s] backbone: timm/vit_small_patch16_dinov3.lvd1689m | backend timm | device cpu
-DINOv3 vocab_s0.5:   7%|▋         | 1/15 [00:14<03:20, 14.31s/it]DINOv3 vocab_s0.5:  27%|██▋       | 4/15 [00:25<01:02,  5.71s/it]DINOv3 vocab_s0.5:  47%|████▋     | 7/15 [00:35<00:36,  4.50s/it]DINOv3 vocab_s0.5:  67%|██████▋   | 10/15 [00:45<00:20,  4.01s/it]DINOv3 vocab_s0.5:  93%|█████████▎| 14/15 [00:57<00:03,  3.52s/it]DINOv3 vocab_s0.5: 100%|██████████| 15/15 [00:59<00:00,  3.94s/it]
-[   63.0s] vocab_s0.5: 493 ms/frame
-DINOv3 main_s0.5:   0%|          | 0/63 [00:00<?, ?it/s]DINOv3 main_s0.5:  11%|█         | 7/63 [00:10<01:20,  1.43s/it]DINOv3 main_s0.5:  24%|██▍       | 15/63 [00:20<01:06,  1.38s/it]DINOv3 main_s0.5:  24%|██▍       | 15/63 [00:30<01:06,  1.38s/it]DINOv3 main_s0.5:  35%|███▍      | 22/63 [00:31<00:58,  1.43s/it]DINOv3 main_s0.5:  46%|████▌     | 29/63 [00:42<00:51,  1.50s/it]DINOv3 main_s0.5:  57%|█████▋    | 36/63 [00:53<00:41,  1.53s/it]DINOv3 main_s0.5:  68%|██████▊   | 43/63 [01:03<00:30,  1.51s/it]DINOv3 main_s0.5:  79%|███████▉  | 50/63 [01:16<00:20,  1.60s/it]DINOv3 main_s0.5:  92%|█████████▏| 58/63 [01:27<00:07,  1.52s/it]DINOv3 main_s0.5: 100%|██████████| 63/63 [01:33<00:00,  1.48s/it]
-[  156.6s] main_s0.5: 188 ms/frame
-[  157.0s] descriptors ...
-ORB BoW:   0%|          | 0/497 [00:00<?, ?it/s]ORB BoW:  32%|███▏      | 158/497 [00:10<00:21, 15.74it/s]ORB BoW:  64%|██████▍   | 318/497 [00:20<00:11, 15.89it/s]ORB BoW:  97%|█████████▋| 480/497 [00:30<00:01, 16.02it/s]ORB BoW: 100%|██████████| 497/497 [00:31<00:00, 15.95it/s]
-[  304.4s] retrieval
-                   R@1    R@5   R@10     AP  R@100P
-DINOv3 cls       0.491  0.782  0.909  0.335   0.036
-DINOv3 mean      0.873  1.000  1.000  0.750   0.218
-DINOv3 gem       0.855  1.000  1.000  0.733   0.255
-DINOv3 cls+mean  0.527  0.800  0.945  0.400   0.109
-DINOv3 vlad      0.800  0.964  0.982  0.684   0.200
-ORB BoW          0.836  0.982  1.000  0.731   0.345
-[  304.4s] best DINOv3 descriptor (by AP): DINOv3 mean
-[  304.7s] layer/scale ablation
-                AP                                  R@1                              
-desc           cls cls+mean    gem   mean   vlad    cls cls+mean    gem   mean   vlad
-layer scale                                                                          
-6     1.0    0.610    0.607  0.639  0.560  0.615  0.727    0.709  0.709  0.727  0.745
-9     1.0    0.686    0.875  0.894  0.879  0.723  0.800    0.927  0.945  0.927  0.745
-12    0.5    0.312    0.318  0.831  0.774  0.648  0.455    0.473  0.891  0.891  0.727
-      1.0    0.335    0.400  0.733  0.750  0.684  0.491    0.527  0.855  0.873  0.800
-[  305.6s] D_THR sensitivity
-                  R@1                                         AP                                
-descriptor DINOv3 cls DINOv3 mean DINOv3 vlad ORB BoW DINOv3 cls DINOv3 mean DINOv3 vlad ORB BoW
-D_THR                                                                                           
-0.25            0.458       0.708       0.542   0.583      0.204       0.462       0.378   0.384
-0.50            0.491       0.873       0.800   0.836      0.335       0.750       0.684   0.731
-1.00            0.758       0.832       0.811   0.853      0.611       0.825       0.781   0.827
-1.50            0.624       0.718       0.667   0.846      0.499       0.691       0.649   0.771
-[  305.8s] temporal consistency
-                  R@1                                         AP                                     R@100P                                
-descriptor DINOv3 cls DINOv3 mean DINOv3 vlad ORB BoW DINOv3 cls DINOv3 mean DINOv3 vlad ORB BoW DINOv3 cls DINOv3 mean DINOv3 vlad ORB BoW
-L                                                                                                                                          
-1               0.491       0.873       0.800   0.836      0.335       0.750       0.684   0.731      0.036       0.218       0.200   0.345
-3               0.418       0.873       0.727   0.927      0.248       0.751       0.569   0.838      0.018       0.164       0.091   0.545
-5               0.545       0.855       0.782   0.927      0.297       0.752       0.597   0.840      0.000       0.145       0.091   0.527
-9               0.709       0.709       0.473   0.727      0.527       0.464       0.201   0.612      0.036       0.000       0.018   0.218
-[  305.8s] geometric verification ...
-verify DINOv3 coarse:   0%|          | 0/382 [00:00<?, ?it/s]verify DINOv3 coarse:   8%|▊         | 29/382 [00:15<03:07,  1.88it/s]verify DINOv3 coarse:   8%|▊         | 29/382 [00:28<03:07,  1.88it/s]verify DINOv3 coarse:  15%|█▍        | 57/382 [00:30<02:53,  1.87it/s]verify DINOv3 coarse:  23%|██▎       | 86/382 [00:45<02:37,  1.88it/s]verify DINOv3 coarse:  23%|██▎       | 86/382 [00:58<02:37,  1.88it/s]verify DINOv3 coarse:  30%|██▉       | 114/382 [01:01<02:23,  1.86it/s]verify DINOv3 coarse:  37%|███▋      | 143/382 [01:16<02:07,  1.87it/s]verify DINOv3 coarse:  37%|███▋      | 143/382 [01:28<02:07,  1.87it/s]verify DINOv3 coarse:  45%|████▍     | 171/382 [01:31<01:53,  1.86it/s]verify DINOv3 coarse:  52%|█████▏    | 199/382 [01:46<01:38,  1.85it/s]verify DINOv3 coarse:  52%|█████▏    | 199/382 [01:58<01:38,  1.85it/s]verify DINOv3 coarse:  59%|█████▉    | 225/382 [02:01<01:26,  1.81it/s]verify DINOv3 coarse:  66%|██████▌   | 253/382 [02:17<01:11,  1.82it/s]verify DINOv3 coarse:  66%|██████▌   | 253/382 [02:28<01:11,  1.82it/s]verify DINOv3 coarse:  74%|███████▎  | 281/382 [02:32<00:55,  1.82it/s]verify DINOv3 coarse:  74%|███████▎  | 281/382 [02:48<00:55,  1.82it/s]verify DINOv3 coarse:  81%|████████  | 309/382 [02:48<00:40,  1.81it/s]verify DINOv3 coarse:  88%|████████▊ | 337/382 [03:03<00:24,  1.81it/s]verify DINOv3 coarse:  88%|████████▊ | 337/382 [03:18<00:24,  1.81it/s]verify DINOv3 coarse:  97%|█████████▋| 372/382 [03:18<00:05,  1.96it/s]verify DINOv3 coarse: 100%|██████████| 382/382 [03:24<00:00,  1.86it/s]
-verify ORB:   0%|          | 0/382 [00:00<?, ?it/s]verify ORB:   9%|▉         | 35/382 [00:15<02:31,  2.29it/s]verify ORB:  18%|█▊        | 70/382 [00:31<02:20,  2.22it/s]verify ORB:  18%|█▊        | 70/382 [00:43<02:20,  2.22it/s]verify ORB:  28%|██▊       | 106/382 [00:46<02:01,  2.28it/s]verify ORB:  28%|██▊       | 106/382 [01:03<02:01,  2.28it/s]verify ORB:  37%|███▋      | 142/382 [01:03<01:48,  2.21it/s]verify ORB:  46%|████▌     | 174/382 [01:20<01:38,  2.12it/s]verify ORB:  46%|████▌     | 174/382 [01:33<01:38,  2.12it/s]verify ORB:  53%|█████▎    | 202/382 [01:35<01:28,  2.03it/s]verify ORB:  61%|██████▏   | 234/382 [01:50<01:12,  2.05it/s]verify ORB:  61%|██████▏   | 234/382 [02:03<01:12,  2.05it/s]verify ORB:  70%|██████▉   | 267/382 [02:05<00:54,  2.10it/s]verify ORB:  79%|███████▉  | 303/382 [02:20<00:36,  2.18it/s]verify ORB:  79%|███████▉  | 303/382 [02:33<00:36,  2.18it/s]verify ORB:  99%|█████████▉| 380/382 [02:35<00:00,  3.07it/s]verify ORB: 100%|██████████| 382/382 [02:36<00:00,  2.44it/s]
-verify ORB:   0%|          | 0/382 [00:00<?, ?it/s]verify ORB:  10%|█         | 40/382 [00:15<02:09,  2.64it/s]verify ORB:  10%|█         | 40/382 [00:27<02:09,  2.64it/s]verify ORB:  21%|██        | 79/382 [00:30<01:57,  2.59it/s]verify ORB:  31%|███       | 119/382 [00:45<01:40,  2.61it/s]verify ORB:  31%|███       | 119/382 [00:57<01:40,  2.61it/s]verify ORB:  41%|████      | 157/382 [01:00<01:27,  2.57it/s]verify ORB:  51%|█████     | 195/382 [01:16<01:13,  2.54it/s]verify ORB:  51%|█████     | 195/382 [01:27<01:13,  2.54it/s]verify ORB:  61%|██████▏   | 234/382 [01:31<00:58,  2.54it/s]verify ORB:  71%|███████▏  | 273/382 [01:46<00:42,  2.56it/s]verify ORB:  71%|███████▏  | 273/382 [01:57<00:42,  2.56it/s]verify ORB:  82%|████████▏ | 312/382 [02:01<00:27,  2.57it/s]verify ORB: 100%|██████████| 382/382 [02:13<00:00,  2.86it/s]
-[  800.7s] verification done in 495s
-[  800.7s] with verification
-                               R@1    R@5   R@10     AP  R@100P
-DINOv3 cls                   0.491  0.782  0.909  0.335   0.036
-DINOv3 mean                  0.873  1.000  1.000  0.750   0.218
-DINOv3 gem                   0.855  1.000  1.000  0.733   0.255
-DINOv3 cls+mean              0.527  0.800  0.945  0.400   0.109
-DINOv3 vlad                  0.800  0.964  0.982  0.684   0.200
-ORB BoW                      0.836  0.982  1.000  0.731   0.345
-DINOv3 mean + DINOv3 verif.  0.945  1.000  1.000  0.934   0.673
-ORB BoW + ORB verif.         0.927  0.982  0.982  0.828   0.400
-DINOv3 mean + ORB verif.     0.964  1.000  1.000  0.929   0.345
-[  800.7s] acceptance
-                   pipeline  tau  accepted  TP  FP  precision  recall
-DINOv3 mean + DINOv3 verif.   10       223  52 171      0.233   0.945
-DINOv3 mean + DINOv3 verif.   15       146  52  94      0.356   0.945
-DINOv3 mean + DINOv3 verif.   20       111  52  59      0.468   0.945
-DINOv3 mean + DINOv3 verif.   25       105  52  53      0.495   0.945
-DINOv3 mean + DINOv3 verif.   30       101  52  49      0.515   0.945
-DINOv3 mean + DINOv3 verif.   40        98  52  46      0.531   0.945
-DINOv3 mean + DINOv3 verif.   50        94  52  42      0.553   0.945
-DINOv3 mean + DINOv3 verif.   75        74  52  22      0.703   0.945
-DINOv3 mean + DINOv3 verif.  100        65  52  13      0.800   0.945
-       ORB BoW + ORB verif.   10       120  51  69      0.425   0.927
-       ORB BoW + ORB verif.   15       116  51  65      0.440   0.927
-       ORB BoW + ORB verif.   20       114  51  63      0.447   0.927
-       ORB BoW + ORB verif.   25       110  51  59      0.464   0.927
-       ORB BoW + ORB verif.   30        98  51  47      0.520   0.927
-       ORB BoW + ORB verif.   40        91  51  40      0.560   0.927
-       ORB BoW + ORB verif.   50        88  51  37      0.580   0.927
-       ORB BoW + ORB verif.   75        85  51  34      0.600   0.927
-       ORB BoW + ORB verif.  100        81  51  30      0.630   0.927
-   DINOv3 mean + ORB verif.   10       111  53  58      0.477   0.964
-   DINOv3 mean + ORB verif.   15        96  53  43      0.552   0.964
-   DINOv3 mean + ORB verif.   20        95  53  42      0.558   0.964
-   DINOv3 mean + ORB verif.   25        88  53  35      0.602   0.964
-   DINOv3 mean + ORB verif.   30        81  53  28      0.654   0.964
-   DINOv3 mean + ORB verif.   40        80  53  27      0.662   0.964
-   DINOv3 mean + ORB verif.   50        79  53  26      0.671   0.964
-   DINOv3 mean + ORB verif.   75        71  53  18      0.746   0.964
-   DINOv3 mean + ORB verif.  100        64  53  11      0.828   0.964
-[  800.7s] relative-pose accuracy ...
-pose accuracy:   0%|          | 0/52 [00:00<?, ?it/s]pose accuracy:  96%|█████████▌| 50/52 [00:15<00:00,  3.28it/s]pose accuracy: 100%|██████████| 52/52 [00:15<00:00,  3.29it/s]
-[  816.5s] relative pose of 52 true loops (gt baseline median 0.35 m, 13.6 deg)
-                   pairs  solved  median_rot_deg  median_trans_cm  p90_trans_cm  within_5cm_5deg  within_10cm_10deg  median_inliers
-method                                                                                                                             
-DINOv3 coarse       52.0     1.0           1.157            4.093         6.087            0.712              0.981           234.5
-DINOv3 softargmax   52.0     1.0           1.735            5.356         9.858            0.442              0.923            97.5
-DINOv3 + LK         52.0     1.0           0.446            1.031         3.069            0.981              1.000            88.5
-ORB                 52.0     1.0           0.431            0.971         2.248            1.000              1.000           512.0
-[  816.5s] figures ...
-[  827.0s] done -> /home/marco/Code/Uppsala/CMVDP/results/loop_closure
-EXIT 0

@@ -1,62 +1,49 @@
 # Loop closure with DINOv3 on TUM RGB-D
 
-This repo tests whether frozen DINOv3 features can serve as the loop-closure module of an RGB-D SLAM system. A loop-closure module has three jobs: recognise a revisited place, verify the match geometrically, and estimate the relative pose that goes into the pose graph. Each step is compared against an ORB baseline (bag of words + ORB feature matching). The study is then repeated with DINOv2 to see how the two backbones differ.
+Can a frozen DINOv3 backbone do the loop-closure job of an RGB-D SLAM system better than ORB (as in ORB-SLAM)? A loop closure has to recognise a revisited place, verify it geometrically, and provide the relative pose that goes into the pose graph.
 
-All experiments use TUM RGB-D `fr3_long_office_household`. The protocol is causal (a query can only match frames at least 20 s in its past), and a ground-truth loop is a frame within 0.5 m and 30° of the query.
+Data: TUM RGB-D `fr3_long_office_household`, keyframes at 6 Hz (497). The protocol is causal: a query may only match frames at least 20 s in its past. A ground-truth loop is a past frame within 0.5 m and 30° of the query, which gives 55 queries with a true loop.
 
-## Main results
+## Pipeline
 
-| | ORB | DINOv3 ViT-S/16 |
+| Step | | |
 |---|---|---|
-| Appearance-only retrieval, AP / R@1 | 0.731 / 0.836 (BoW) | **0.894 / 0.945** (GeM of block-9 patch tokens) |
-| After geometric verification, AP / R@100P | 0.828 / 0.400 | **0.957 / 0.764** |
-| True loops recalled with zero bad constraints | 92.7 % | **96.4 %** |
-| Median relative-pose error of accepted loops | 0.97 cm / 0.39° | 1.03 cm / 0.42° (with LK refinement) |
+| 1. Backbone | frozen DINOv3 ViT-S/16, one pass per keyframe | 40 × 30 grid of patch features |
+| 2. Retrieval | GeM pooling of **block-9** patch tokens | keep the 5 most similar past keyframes |
+| 3. Verification | mutual-NN patch matches, lifted to 3D with depth | PnP-RANSAC fits one camera motion |
+| 4. Acceptance | accept the best candidate if ≥ 25 % of its matches are inliers (and ≥ 15 inliers) | pose refined with Lucas-Kanade |
 
-Recommended pipeline: block-9 GeM retrieval → top-5 candidates → PnP-RANSAC verification on DINOv3 patch matches + depth → accept if inlier ratio ≥ 0.25 → pose refined with Lucas-Kanade. It needs one backbone forward pass per keyframe.
+## Results
 
-Full write-ups:
-- [LOOP_CLOSURE_REPORT.md](LOOP_CLOSURE_REPORT.md): protocol, DINOv3 vs ORB, ablations and limitations.
-- [DINOV2_VS_DINOV3_REPORT.md](DINOV2_VS_DINOV3_REPORT.md): the same study with DINOv2 ViT-S/14 (4 registers).
+| Method | AP | R@100P |
+|---|---|---|
+| ORB bag of words | 0.731 | 0.345 |
+| DINOv3 block 12 (final layer), GeM | 0.733 | 0.255 |
+| DINOv3 block 9, GeM (steps 1–2) | 0.894 | 0.527 |
+| DINOv3 + verification (steps 1–3) | **0.957** | **0.764** |
 
-## Contents
+After step 4: **53/55 true loops accepted, 0 harmful constraints**. A constraint is harmful if its pose is off by more than 10 cm or 5°. The 16 other accepted loops lie outside the 0.5 m / 30° radius but still have a correct pose.
+
+Why block 9 rather than the last block? It is better on both AP and R@100P. One hypothesis, not tested here, is that the last blocks encode *what* is in the image while block 9 still keeps *where* things are.
+
+## Files
 
 | File | Purpose |
 |---|---|
-| `01_loop_closure.ipynb` | Interactive retrieval study: CLS vs pooled/GeM/VLAD patch tokens vs ORB BoW, plus geometric verification with patch matches. Reports Recall@N, PR-AUC and recall at 100 % precision |
-| `loop_closure_experiments.py` | Headless, extended version of the notebook: retrieval, temporal consistency, geometric verification, loop acceptance, loop-pose accuracy, layer × scale ablation |
-| `loop_closure_followup.py` | Judges accepted loops by the pose they would add to the graph and sweeps the acceptance threshold |
-| `loop_closure_final_pipeline.py` | End-to-end run of the recommended pipeline |
-| `loop_closure_layer_sweep.py` | Retrieval quality of all 12 transformer blocks, for DINOv3 and DINOv2 |
-| `loop_closure_compare.py` | Side-by-side DINOv3 vs DINOv2 tables and figures |
-| `slam_utils.py` | Shared code: TUM loader, DINOv3/DINOv2 wrapper, matchers, PnP, loop-closure evaluation |
-| `results/` | Tables, figures and logs: `loop_closure/` (DINOv3), `loop_closure_dinov2/`, `loop_closure_compare/` |
+| `loop_closure.py` | The whole pipeline, the ORB baseline, the tables and figures |
+| `slam_utils.py` | TUM loader, DINOv3 wrapper, ORB BoW, patch matching, PnP, evaluation |
+| `results/retrieval.csv` | Table above |
+| `results/accepted_loops.csv` | Every accepted loop with its pose error and class |
+| `results/summary.json` | All numbers above |
+| `results/fig_ground_truth.png` | Trajectory with the 55 true-loop queries |
+| `results/fig_examples.png` | Retrieved frames: DINOv3 retrieval only, ORB BoW, DINOv3 + verification |
 
-## Setup
+## Run
 
 ```bash
 uv venv .venv && uv pip install --python .venv/bin/python -r requirements.txt
-hf auth login          # optional: the HF DINOv3 weights are gated; without them the wrapper falls back to the ungated timm checkpoint
-.venv/bin/jupyter lab
+export HF_HUB_DISABLE_IMPLICIT_TOKEN=1   # the HF DINOv3 weights are gated; without a token the ungated timm copy is used
+.venv/bin/python loop_closure.py
 ```
 
-The TUM sequence is downloaded into `data/` on first use (fr3_long_office_household ≈ 1.6 GB; `fr1_desk` ≈ 0.4 GB is also fetched to train the VLAD and BoW vocabularies). A GPU is recommended. On CPU, ViT-S/16 takes about 1 s per 640×480 frame.
-
-## Reproduce
-
-```bash
-export HF_HUB_DISABLE_IMPLICIT_TOKEN=1   # avoids an invalid stored HF token blocking public timm downloads
-.venv/bin/python loop_closure_experiments.py     # ~15–20 min CPU → results/loop_closure/
-.venv/bin/python loop_closure_followup.py        # reuses the feature cache from the step above
-.venv/bin/python loop_closure_final_pipeline.py
-
-# DINOv2: same scripts, selected with LC_BACKBONE → results/loop_closure_dinov2/
-LC_BACKBONE=dinov2 .venv/bin/python loop_closure_experiments.py
-LC_BACKBONE=dinov2 .venv/bin/python loop_closure_followup.py
-LC_BACKBONE=dinov2 .venv/bin/python loop_closure_final_pipeline.py
-
-.venv/bin/python loop_closure_layer_sweep.py dinov3 dinov2
-.venv/bin/python loop_closure_compare.py         # → results/loop_closure_compare/
-```
-
-`LC_RET_LAYER` changes the retrieval block used by the follow-up and final-pipeline scripts (default 9).
+The TUM sequences are downloaded into `data/` on first use: `fr3_long_office_household` is about 1.6 GB, and `fr1_desk` (0.4 GB) is used to train the ORB vocabulary. Features are cached in `results/cache/`. The first run takes about 15 minutes on CPU; later runs take about 4 minutes.

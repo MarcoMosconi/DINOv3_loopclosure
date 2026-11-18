@@ -1,4 +1,0 @@
-model,loosest safe ratio,true loops kept,extra valid overlaps kept,max ratio of a wrong place,max ratio of a bad pose,min ratio of a true loop,median ratio of a true loop,#bad top-1 (>=15 inl.)
-DINOv3,0.2500,53,16,0.1818,0.2239,0.3350,0.4315,63.0000
-DINOv2,0.2000,51,6,,0.1508,0.1663,0.3092,15.0000
-"ORB (ORB BoW + ORB verif., #inliers)",,51,33,,,,,
