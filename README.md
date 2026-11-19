@@ -38,7 +38,7 @@ Why block 9 rather than the last block? It is better on both AP and R@100P. One 
 | `results/fig_ground_truth.png` | Trajectory with the 55 true-loop queries |
 | `results/fig_examples.png` | Retrieved frames: DINOv3 retrieval only, ORB BoW, DINOv3 + verification |
 
-## Run
+<!-- ## Run
 
 ```bash
 uv venv .venv && uv pip install --python .venv/bin/python -r requirements.txt
@@ -46,4 +46,4 @@ export HF_HUB_DISABLE_IMPLICIT_TOKEN=1   # the HF DINOv3 weights are gated; with
 .venv/bin/python loop_closure.py
 ```
 
-The TUM sequences are downloaded into `data/` (not on git  due to size) on first use: `fr3_long_office_household` is about 1.6 GB, and `fr1_desk` (0.4 GB) is used to train the ORB vocabulary. Features are cached in `results/cache/`. The first run takes about 15 minutes on CPU; later runs take about 4 minutes.
+The TUM sequences are downloaded into `data/` (not on git  due to size) on first use: `fr3_long_office_household` is about 1.6 GB, and `fr1_desk` (0.4 GB) is used to train the ORB vocabulary. Features are cached in `results/cache/`. The first run takes about 15 minutes on CPU; later runs take about 4 minutes. -->
